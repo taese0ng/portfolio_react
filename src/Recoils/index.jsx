@@ -1,6 +1,6 @@
 import {atom} from 'recoil';
 
-export const countState = atom({
-    key:'countState',
-    default: 1
+export const time = atom({
+    key: 'time',
+    default: 0
 })
