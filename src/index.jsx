@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import 'CSS/index.css';
 import reportWebVitals from './reportWebVitals';
 import Root from 'Routers';
+import {RecoilRoot} from 'recoil';
 
 ReactDOM.render(
-  <Root/>,
-  document.getElementById('root')
+    <RecoilRoot>
+        <Root/>
+    </RecoilRoot>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
